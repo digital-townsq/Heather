@@ -40,7 +40,7 @@ const LoginPage = () => {
   <div className="mb-4">
     <input 
       type="text"
-      placeholder="Email"
+      placeholder="Phone Number"
       value={username}
       onChange={e => setUsername(e.target.value)}
       className="border border-black p-2 rounded"
