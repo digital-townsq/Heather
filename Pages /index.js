@@ -1,11 +1,11 @@
 "use client"
 import LoginPage from "./loginpage";
-import Home from "../config/home";
+import Home from "../services/home";
 import { metadata} from "./layout"
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "/config/firebase";
 import { useState, useEffect } from "react";
-import digitaltown from '/public/assets/images/digitaltown.png';
+import digitaltown from '../images/digitaltown.png';
 import Image from "next/image";
 
 
