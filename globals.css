@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+
+@font-face {
+  font-family: 'Rolleston';
+  src: url('/assets/fonts/Rolleston.ttf') format('truetype');
+}
+
+.flex-basis-45 {
+  flex-basis: 45%;
+}
